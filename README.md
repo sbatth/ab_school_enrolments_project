@@ -78,10 +78,10 @@ This can indicate early signs of changing preferences in schools. This likely re
 
 - The school with the highest enrolments in 2024 was *The Gilbertine Academy* which is a private school. The public school with the highest enrolments was *Jasper High School* with nearly half the enrolments.
 
-There could be several factors inducing this
-- infrastructure of schools
-- density of schools
-- preference shifts in the area
+  There could be several factors inducing this
+  - infrastructure of schools
+  - density of schools
+  - preference shifts in the area
 
 Further investigation is recommended to identify the issue.  
 
