@@ -103,7 +103,7 @@ The category with the **second highest increase** was *Private* schools going fr
 
 The other categories saw upward trends too but not as significant as the aforementioned two, Public schools saw an increase of 9%, Separate schools saw an increase of 10%, and Francophone schools saw an increase of 11%.
 
-### Recommendations
+## Recommendations
 
 1. **Expand Charter Schools**
 Even though the enrolments in public schools are increasing, they can be attributed to the general popultaion increase upto an extent. There are early signs that the Private and Charter schools are gaining popularity among Albertans. As *Charter schools are specialized public schools*, the government can look to benefit from this trend and create more such schools.
@@ -114,7 +114,7 @@ Elementary grades take up almost *50%* of all the enrolments in any given year. 
 3. **Learn from High-Performing Schools**
 *The Gilbertine Academy* is a leader in student enrolments. Research can be done on the school to identify potential improvements in public schools.
 
-### Areas of improvement
+## Areas of improvement
 
 - Geographical Analysis
 The analysis could benefit from geographical data to identify any hotspots. Geographical density can also be tested as a cause of schools' performances.
