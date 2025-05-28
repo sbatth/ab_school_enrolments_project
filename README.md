@@ -106,20 +106,25 @@ The other categories saw upward trends too but not as significant as the aforeme
 ## Recommendations
 
 1. **Expand Charter Schools**
+
 Even though the enrolments in public schools are increasing, they can be attributed to the general popultaion increase upto an extent. There are early signs that the Private and Charter schools are gaining popularity among Albertans. As *Charter schools are specialized public schools*, the government can look to benefit from this trend and create more such schools.
 
 2. **Focus on elementary education**
+
 Elementary grades take up almost *50%* of all the enrolments in any given year. The education initiatives by the goverment should consider the impact it will have on these enrolments.
 
 3. **Learn from High-Performing Schools**
+
 *The Gilbertine Academy* is a leader in student enrolments. Research can be done on the school to identify potential improvements in public schools.
 
 ## Areas of improvement
 
 - Geographical Analysis
+  
 The analysis could benefit from geographical data to identify any hotspots. Geographical density can also be tested as a cause of schools' performances.
 
 - Student-level Data
+  
 Anonymized data on individual students could also be beneficial. This can help to identify any migrations from public schools to others. If certain schools are experiencing high outward migration, they can be investigated.
 
  
