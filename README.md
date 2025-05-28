@@ -29,7 +29,7 @@ The [PDF](./enrolment_dashboard.pdf) of the PowerBI report can be used for quick
 
 ### Data Source 
 
-Data was obtained from the [Government of Alberta data portal](https://open.alberta.ca/opendata/student-enrolment-by-school-authority-and-grade-level), covering data for school years 2021/2022 up to 2024/2025. For consistency, I used the enrolment year instead of the whole school year.
+Data was obtained from the [Government of Alberta data portal](https://open.alberta.ca/opendata/student-enrolment-by-school-authority-and-grade-level), covering data for school years 2021/2022 up to 2024/2025. For consistency, the enrolment year was instead of the whole school year.
 For example, school year 2021/2022 became enrolment year 2021 in the data.
 
 ### Data Preparation
