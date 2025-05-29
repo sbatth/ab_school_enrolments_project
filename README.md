@@ -93,7 +93,7 @@ For the trends over the years, all the grade categories- Elementary, Junior High
 
 For the school categories, the **biggest jump** was seen in the *Charter* category schools, enrolments went from 10.6k in 2021 to 15.4k in 2024, a gain of *45%*. This can be attributed to the *significant increase in the number of schools*, changing from 25 to 36 in the same period.
 
-This may point to successful policy support (e.g. lifting of previous caps), growing public awareness, or perceived academic advantages. The trend could signal long-term structural change in Alberta’s education system, especially in urban centres where demand for alternatives is higher.
+This may point to successful policy support (e.g. lifting of previous caps), growing public awareness, or perceived academic advantages. The trend could signal long-term structural change in Alberta’s education system, especially in urban centers where demand for alternatives is higher.
 
 ![im](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20210446.png)
 
@@ -107,11 +107,11 @@ The other categories saw upward trends too but not as significant as the aforeme
 
 1. **Expand Charter Schools**
 
-Even though the enrolments in public schools are increasing, they can be attributed to the general popultaion increase upto an extent. There are early signs that the Private and Charter schools are gaining popularity among Albertans. As *Charter schools are specialized public schools*, the government can look to benefit from this trend and create more such schools.
+Even though the enrolments in public schools are increasing, they can be attributed to the general population increase up to an extent. There are early signs that the Private and Charter schools are gaining popularity among Albertans. As *Charter schools are specialized public schools*, the government can look to benefit from this trend and create more such schools.
 
 2. **Focus on elementary education**
 
-Elementary grades take up almost *50%* of all the enrolments in any given year. The education initiatives by the goverment should consider the impact it will have on these enrolments.
+Elementary grades take up almost *50%* of all the enrolments in any given year. The education initiatives by the government should consider the impact it will have on these enrolments.
 
 3. **Learn from High-Performing Schools**
 
