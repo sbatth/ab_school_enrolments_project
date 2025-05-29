@@ -21,7 +21,7 @@ The goal of the project was to identify the composition of enrolments in schools
 
 Preview of the report.
 
-![im](https://private-user-images.githubusercontent.com/147944185/447742013-59b6ce96-e4bb-4c2d-878e-7f57f422bb9c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NzQyMDEzLTU5YjZjZTk2LWU0YmItNGMyZC04NzhlLTdmNTdmNDIyYmI5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOTNjN2Y1NTMzMWIyYWVmNjQ2Y2ZiZjk5NDNlMTgxNGU2NmUyMzdkYThhYzk5OWQ0MTcwMjE4ZGI5MjY2N2IxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.YH4WU5MVBuklFbau-1JQBpVTxzsmzUBMng9oWTM1a2g)
+![im](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20212739.png)
 
 The [PDF](./enrolment_dashboard.pdf) of the PowerBI report can be used for quick overview. To use interactive features of the report, the [pbix](./enrolment_dashboard.pbix) file can be downloaded. 
 
@@ -36,16 +36,16 @@ For example, school year 2021/2022 became enrolment year 2021 in the data.
 - Appended data files into one in Power Query.
 - The data file contained a column for enrolments of each grade starting from Early Childhood Service (ECS) to Grade 12. Unpivoted these columns to have a long-format data file optimizing usability and storage in PowerBI. 
 
-![Power Query Snapshot](https://private-user-images.githubusercontent.com/147944185/447422468-8d5caa5d-adb8-4c56-9bbc-69055b7f46e2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTcsIm5iZiI6MTc0ODQ4ODY5NywicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDIyNDY4LThkNWNhYTVkLWFkYjgtNGM1Ni05YmJjLTY5MDU1YjdmNDZlMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYTk4ZjMxODM0NmUxYjY1NmEyNzA4NjY5ODYzNDhiYjhkMDYzNTA5YWI5MGE3OTNlMmRlZjZlYTJiN2JiNzNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xv38ul5xUP4Krfy2ZoYb8fd4qjIzzi_zp_7Bc9E3xcY)
+![Power Query Snapshot](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20231443.png)
 
 - Created a new table to change the grade levels to a broader level of Elementary (ECS-6), Junior High (7-9) and Senior High (10-12).
 
-![img](https://private-user-images.githubusercontent.com/147944185/447424664-2c0fb2db-3284-4b12-b663-f1bd087596bf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDI0NjY0LTJjMGZiMmRiLTMyODQtNGIxMi1iNjYzLWYxYmQwODc1OTZiZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZDA1ZWI1NjYwYmE0YWQwYjYyZGVhODYxMmE5YzhkMDYzOGIzMmY2OTkyMTMzMjA1ZTI3MDA1ODcyZWVmYTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.v6nZUE2yHigmQQHh1i0XFIBKJFQ5vgpzfIA7eriesPQ)
+![img](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20232243.png)
 
 
 The data model looked as follows
 
-![data_model](https://private-user-images.githubusercontent.com/147944185/447424639-2a72c627-5404-4060-b93e-77f0cb376c5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDI0NjM5LTJhNzJjNjI3LTU0MDQtNDA2MC1iOTNlLTc3ZjBjYjM3NmM1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MTBlYWZkOTgyMzAyOTQwYjI0Y2U4YTNjZDEzYTliMzliNjFlZGMzNWFmODZhNTlkMjY5NWE2YzIwNmM4ZjM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MA2uRJM2IW1VvTdQVPwex3GwRrL5Jy6nbt_zKo847BQ)
+![data_model](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20232231.png)
 
 ### Tools
 
@@ -60,11 +60,11 @@ Key findings in the data
 
 - In 2024, there were a total of around *811,000 student enrolments* and *2,254 schools* that took these enrolments. This indicates the magnitude of schooling in Alberta. 
 
-![kpi](https://private-user-images.githubusercontent.com/147944185/447430212-c01b1a62-8c50-47ef-a051-68f56b40a769.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDMwMjEyLWMwMWIxYTYyLThjNTAtNDdlZi1hMDUxLTY4ZjU2YjQwYTc2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmExMDQyYWQ1YjM4NGRhNWYyZTViNmRmMWZiNTE3MjRiZWJmNDg0MGRlNDUxMzQzZmZiNmIwYjUxOTRhZGJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.uj4pXRV62RNYPYwTHWNzwyEWiw-XloGO2-_wp7ROPOA)
+![kpi](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20234446.png)
 
 - In 2024, *52.87%* of the total enrolments were in elementary grades. This emphasizes the importance of early education initiatives in Alberta. The policies that affect public education should consider that they will have the biggest impact on elementary education.
   
-![kpi](https://private-user-images.githubusercontent.com/147944185/447716718-412ab4f4-7a35-490f-aecc-b1fe0ac9f578.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NzE2NzE4LTQxMmFiNGY0LTdhMzUtNDkwZi1hZWNjLWIxZmUwYWM5ZjU3OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MzExMzk2OTE5OGY5N2Y3ODA3NjNhMWQxYjExMmUzZWY4M2VjNmExODFmMTUyMmJkNzIzYWMwMzJjMDc2YTFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.VRilJWImUpY-Vcc1_1J4AA33opn93zEa2uCSBry8yBw)
+![kpi](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20191551.png)
 
 - In 2024, *539k* of the 811k enrolments (66.5%) were in Public schools. This percentage has been in a slight decline since 2021. 67.4% in 2021, 67.4% in 2022, 66.8% in 2023. Over the same period
   - The Private schools went from 6.32% from 2021 to 6.92% in 2024.
@@ -72,7 +72,7 @@ Key findings in the data
 
 This can indicate early signs of changing preferences in schools. This likely reflects faster growth in alternative options like charter or private schools. Potential drivers could include greater parental demand for specialized programs, increased funding or expansion of charter schools, or shifts in perception of public education quality.
 
-![kpi](https://private-user-images.githubusercontent.com/147944185/447430210-23fffcdc-c289-4417-b745-e3d536ec4372.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDMwMjEwLTIzZmZmY2RjLWMyODktNDQxNy1iNzQ1LWUzZDUzNmVjNDM3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYWE2YTJlYTc5NDRlZWUxM2I0YTJiMDU2MWZhZjNmNTg1OTZlMjg1ZTk0NTY3ZTdmYzYzODRkMTNlZjkwNmQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p1idy1kapiIF1sBVwJ9xpjc-URf9YaAjyaG2o6IL6ms)
+![kpi](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20234539.png)
 
 
 
@@ -85,21 +85,21 @@ This can indicate early signs of changing preferences in schools. This likely re
 
 Further investigation is recommended to identify the issue.  
 
-![kpi](https://private-user-images.githubusercontent.com/147944185/447430211-6a0a5446-ffaa-475b-8832-de1b4ebba6e6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NDMwMjExLTZhMGE1NDQ2LWZmYWEtNDc1Yi04ODMyLWRlMWI0ZWJiYTZlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MjI0ZGI3ZTVlZTk0M2I2M2QxZDI1NDAwNTM2MDFmMzA0NzBhMTViNTQxNDQ4NTk0ZDhlYzJjZjU0NTQyMzJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.KpEPUhDwijNco42IyBvbdJkTqvojD5BtD8fF72cGaIM)
+![kpi](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20234510.png)
 
 For the trends over the years, all the grade categories- Elementary, Junior High, and Senior High saw a *steady increase in number of enrolments* but Senior High enrolments gained significant ground in the percent of total enrolments metric. They went from holding 23.05% of the total enrolments in 2021 to 24.68% in 2024.
 
-![im](https://private-user-images.githubusercontent.com/147944185/447736337-b4fc5860-81a4-49db-9de6-e5225bd075c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NzM2MzM3LWI0ZmM1ODYwLTgxYTQtNDlkYi05ZGU2LWU1MjI1YmQwNzVjNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNTg3ZWZkMTBiMzRiMmNlZWE3Nzk2YWVkMmQ5Y2M2ZDIzNGU1NmUwOGQ4MDE4ZjA3NmY2ZTQ1MjY1YTU0MTY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.455NlqzgjtpfvA-PU1nhjHtTWp2Ex3UJhxAQ51vUoYw)
+![im](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20205919.png)
 
 For the school categories, the **biggest jump** was seen in the *Charter* category schools, enrolments went from 10.6k in 2021 to 15.4k in 2024, a gain of *45%*. This can be attributed to the *significant increase in the number of schools*, changing from 25 to 36 in the same period.
 
 This may point to successful policy support (e.g. lifting of previous caps), growing public awareness, or perceived academic advantages. The trend could signal long-term structural change in Alberta’s education system, especially in urban centres where demand for alternatives is higher.
 
-![im](https://private-user-images.githubusercontent.com/147944185/447737488-2a6cd589-3fa5-4bea-b96c-ff96cb90485d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NzM3NDg4LTJhNmNkNTg5LTNmYTUtNGJlYS1iOTZjLWZmOTZjYjkwNDg1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMjY3ZGQzMTE0YWZlYTU4MjY4MGY5YzBhMGQ3YWVjN2I1YWIzMTI3OTJiMzkyYjllZTgxMDFiMzBhNDYzOTY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.v2cBbYn-LUVGA7ti--GkYVJJLFKqMRIFxzCSRP395HI)
+![im](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20210446.png)
 
 The category with the **second highest increase** was *Private* schools going from 46.4k enrolments in 2021 to 56.2k in 2024, an increase of *22%*. Private schools also saw an increase in the number of schools by 25 during this period.
 
-![im](https://private-user-images.githubusercontent.com/147944185/447738313-2b2129c3-3f02-4ffc-976f-898edeca3f5b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg0ODg5OTgsIm5iZiI6MTc0ODQ4ODY5OCwicGF0aCI6Ii8xNDc5NDQxODUvNDQ3NzM4MzEzLTJiMjEyOWMzLTNmMDItNGZmYy05NzZmLTg5OGVkZWNhM2Y1Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyOVQwMzE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYWNhODY5NzljZjZhZWFjN2VlYTNlNGY4YmEyY2RhMmYzMzRlZjZjZGUzMGFmNzQxNTZkNDhlNDAxNGY1MDM0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.kdsrK60YHrFk4TXsIH0P8OsYJPOtow4LZEYp2e7JEbA)
+![im](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-26%20210906.png)
 
 The other categories saw upward trends too but not as significant as the aforementioned two, Public schools saw an increase of 9%, Separate schools saw an increase of 10%, and Francophone schools saw an increase of 11%.
 
