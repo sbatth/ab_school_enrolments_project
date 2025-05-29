@@ -74,6 +74,7 @@ This can indicate early signs of changing preferences in schools. This likely re
 
 ![kpi](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-25%20234539.png)
 
+![k](https://github.com/sbatth/images/blob/main/bi/Screenshot%202025-05-29%20144232.png)
 
 
 - The school with the highest enrolments in 2024 was *The Gilbertine Academy* which is a private school. The public school with the highest enrolments was *Jasper High School* with nearly half the enrolments.
